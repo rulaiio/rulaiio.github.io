@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request a demo or a free account — rul.ai</title>
+<meta name="description" content="Book a 30-minute live build on your own data, or request a free Rulai Studio account. One form, one business day to reply.">
+<link rel="canonical" href="https://rul.ai/request.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="rul.ai">
+<meta property="og:title" content="Request a demo or a free account — rul.ai">
+<meta property="og:description" content="Book a 30-minute live build on your own data, or request a free Rulai Studio account. One form, one business day to reply.">
+<meta property="og:url" content="https://rul.ai/request.html">
+<meta property="og:image" content="https://rul.ai/assets/poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#3E5FBD">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="wordmark" href="index.html">
+      <span class="logo-mark logo-mark--light"><img src="assets/img/logo-light.png" alt="rul.ai"></span><span class="logo-mark logo-mark--dark"><img src="assets/img/logo-dark.png" alt="rul.ai"></span>
+    </a>
+    <nav class="navlinks">
+      <a href="product.html" data-route-link="product">Product</a>
+      <a href="how-it-works.html" data-route-link="how-it-works">How it works</a>
+      <a href="why.html" data-route-link="why">Why rul.ai</a>
+      <a href="industries.html" data-route-link="industries">Industries</a>
+      <a href="resources.html" data-route-link="resources">Resources</a>
+      <a href="about.html" data-route-link="about">About</a>
+    </nav>
+    <div class="navright">
+      <a href="request.html" class="btn btn-primary navcta" aria-current="page">Request a demo</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="pagehead">
+    <div class="wrap">
+      <span class="eyebrow"><span class="mark dot"></span>GET STARTED</span>
+      <h1>See it built on your data, or build it yourself.</h1>
+      <p class="lede">A live demo is 30 minutes: we build an agent on a sample of your data while you watch. A free account gives you Rulai Studio with sample data to try on your own.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:24px;">
+    <div class="wrap contact-grid">
+      <div class="contact-points">
+        <div class="contact-point">
+          <h4>Live demo, 30 minutes</h4>
+          <p>Send a few rows of your data or describe a use case. We build the agent in front of you, run a test conversation, and show the decision trace behind each reply.</p>
+        </div>
+        <div class="contact-point">
+          <h4>Free account</h4>
+          <p>Rulai Studio with a sample order database. Describe an agent, review the flows it proposes, test it. No card, no time limit on the sandbox.</p>
+        </div>
+        <div class="contact-point">
+          <h4>What happens next</h4>
+          <p>We reply within one business day with a calendar link for the demo, or with your account invitation.</p>
+        </div>
+        <div class="contact-point">
+          <h4>Prefer email?</h4>
+          <p>Write to <a href="mailto:contact@rul.ai" style="color:var(--neural); font-weight:600;">contact@rul.ai</a> with "demo" or "account" in the subject line.</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h3>Request a demo or an account</h3>
+        <p>Fill in the form. We reply within one business day.</p>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <fieldset style="border:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
+            <legend style="font-family:'Geist', sans-serif; font-weight:600; font-size:13px; color:var(--text); margin-bottom:4px;">I want</legend>
+            <label style="flex-direction:row; align-items:center; gap:10px; font-weight:500;"><input type="radio" name="request" value="Live demo" checked style="width:auto; margin:0;"> A live demo on my data (30 min)</label>
+            <label style="flex-direction:row; align-items:center; gap:10px; font-weight:500;"><input type="radio" name="request" value="Free account" style="width:auto; margin:0;"> A free Rulai Studio account</label>
+            <label style="flex-direction:row; align-items:center; gap:10px; font-weight:500;"><input type="radio" name="request" value="Both" style="width:auto; margin:0;"> Both</label>
+          </fieldset>
+          <label>Full name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>Work email
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>Company
+            <input type="text" name="company" autocomplete="organization" required>
+          </label>
+          <label>Your role
+            <input type="text" name="role" autocomplete="organization-title" placeholder="e.g. VP Customer Operations">
+          </label>
+          <label>What should the agent handle?
+            <textarea name="message" rows="4" placeholder="e.g. claim status and first notice of loss for an insurer; refunds under $50 for an online store" required></textarea>
+          </label>
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute; left:-9999px; width:1px; height:1px;">
+          <input type="hidden" name="_subject" value="Demo / account request from rul.ai">
+          <button type="submit" class="btn btn-primary" style="justify-content:center; width:100%;">Send request</button>
+          <p class="contact-form-note" id="contactFormNote" hidden></p>
+        </form>
+        <div class="contact-divider">or</div>
+        <a href="mailto:contact@rul.ai?subject=Demo%20or%20account%20request" class="btn btn-ghost" style="justify-content:center; width:100%;">Email contact@rul.ai</a>
+        <p style="margin-top:24px; font-size:13px; color:var(--text-soft);">Just have a question? Use the <a href="contact.html" style="color:var(--neural); font-weight:600;">contact page</a>. Rather explore first? See <a href="product.html" style="color:var(--neural); font-weight:600;">the platform</a> or read about <a href="why.html" style="color:var(--neural); font-weight:600;">why rul.ai</a>.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footgrid">
+      <div>
+        <a class="wordmark" href="index.html">
+          <span class="logo-mark logo-mark--light"><img src="assets/img/logo-light.png" alt="rul.ai"></span><span class="logo-mark logo-mark--dark"><img src="assets/img/logo-dark.png" alt="rul.ai"></span>
+        </a>
+        <p style="color:var(--text-soft); font-size:14px; max-width:32ch; margin-top:14px;">Neural-symbolic AI agents for enterprises that need fluency and control.</p>
+      </div>
+      <div>
+        <h5>Product</h5>
+        <ul>
+          <li><a href="how-it-works.html">How it works</a></li>
+          <li><a href="product.html#configuration">Configuration</a></li>
+          <li><a href="product.html#analytics">Analytics</a></li>
+          <li><a href="product.html#integrations">Integrations</a></li>
+          <li><a href="product.html#security">Security</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Why rul.ai</h5>
+        <ul>
+          <li><a href="why.html">Neural vs. symbolic</a></li>
+          <li><a href="industries.html">Industries</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Resources</h5>
+        <ul>
+          <li><a href="resources.html">Rulai Institute</a></li>
+          <li><a href="https://rul.ai/conversational-ai-design-certification-course/" target="_blank" rel="noopener">Certification course</a></li>
+          <li><a href="product.html#security">Security &amp; compliance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html#partners">Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footnote">
+      <span>1999 S. Bascom Ave, Suite 700, Campbell, CA 95008</span>
+      <span>© 2026 rul.ai. All rights reserved. &middot; <a href="https://rul.ai/privacy/" target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
