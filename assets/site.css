@@ -298,7 +298,8 @@ section{padding:88px 0;}
 .teaser-grid{
   display:grid; grid-template-columns:repeat(3,1fr); gap:20px;
 }
-@media(max-width:880px){ .teaser-grid{grid-template-columns:1fr;} }
+.teaser-grid.cols-2{grid-template-columns:repeat(2,1fr);}
+@media(max-width:880px){ .teaser-grid,.teaser-grid.cols-2{grid-template-columns:1fr;} }
 .teaser-card{
   background:var(--surface); padding:30px 28px;
   border:1px solid var(--line); border-radius:var(--radius-soft);
@@ -568,3 +569,17 @@ footer{border-top:1px solid var(--line); padding:56px 0 40px;}
   margin-top:48px; padding-top:24px; border-top:1px solid var(--line);
   display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:13px; color:var(--text-soft);
 }
+
+/* ---------- results band ---------- */
+.result-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
+.result-grid.cols-2{grid-template-columns:repeat(2,1fr);}
+@media(max-width:880px){ .result-grid,.result-grid.cols-2{grid-template-columns:1fr;} }
+.result-card{
+  background:var(--surface); padding:28px; border:1px solid var(--line);
+  border-radius:var(--radius-soft); box-shadow:var(--shadow);
+  display:flex; flex-direction:column; gap:8px;
+}
+.result-card .who{font-family:"Geist", sans-serif; font-weight:600; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-soft);}
+.result-card .big{font-family:"Geist", sans-serif; font-weight:700; font-size:34px; line-height:1.1; color:var(--text);}
+.result-card p{color:var(--text-soft); font-size:14.5px; margin:0;}
+.result-note{font-size:13px; color:var(--text-soft); margin:18px 0 0;}
