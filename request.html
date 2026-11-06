@@ -63,8 +63,10 @@
           <p>Sending the form opens an email to our team in your mail app. You can also ask our assistant in the chat window on this page.</p>
         </div>
         <div class="contact-point">
-          <h4>Prefer email?</h4>
-          <p>Write to <a href="mailto:contact@rul.ai" style="color:var(--neural); font-weight:600;">contact@rul.ai</a> with "demo" or "account" in the subject line.</p>
+          <h4>Prefer chat?</h4>
+          <p>Our virtual assistant, Jessie, can set up that free account for you now.</p>
+          <p style="margin-top:12px;"><a href="#" class="btn btn-primary" id="chatJessie">Chat with Jessie</a></p>
+          <p id="chatJessieHint" style="display:none; margin-top:10px; font-size:16px;">Use the chat button at the bottom right of this page to start.</p>
         </div>
       </div>
 
@@ -73,7 +75,7 @@
         <p>Fill in the form and we will get back to you.</p>
         <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
           <fieldset style="border:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
-            <legend style="font-family:'Geist', sans-serif; font-weight:600; font-size:13px; color:var(--text); margin-bottom:4px;">I want</legend>
+            <legend style="font-family:'Geist', sans-serif; font-weight:600; font-size:15px; color:var(--text); margin-bottom:4px;">I want</legend>
             <label style="flex-direction:row; align-items:center; gap:10px; font-weight:500;"><input type="radio" name="request" value="Live demo" checked style="width:auto; margin:0;"> A live demo on my data (30 min)</label>
             <label style="flex-direction:row; align-items:center; gap:10px; font-weight:500;"><input type="radio" name="request" value="Free account" style="width:auto; margin:0;"> A limited free Rulai Studio account</label>
             <label style="flex-direction:row; align-items:center; gap:10px; font-weight:500;"><input type="radio" name="request" value="Both" style="width:auto; margin:0;"> Both</label>
@@ -100,7 +102,7 @@
         </form>
         <div class="contact-divider">or</div>
         <a href="mailto:contact@rul.ai?subject=Demo%20or%20account%20request" class="btn btn-ghost" style="justify-content:center; width:100%;">Email contact@rul.ai</a>
-        <p style="margin-top:24px; font-size:13px; color:var(--text-soft);">Just have a question? Use the <a href="contact.html" style="color:var(--neural); font-weight:600;">contact page</a>. Rather explore first? See <a href="product.html" style="color:var(--neural); font-weight:600;">the platform</a> or read about <a href="why.html" style="color:var(--neural); font-weight:600;">why rul.ai</a>.</p>
+        <p style="margin-top:24px; font-size:15px; color:var(--text-soft);">Just have a question? Use the <a href="contact.html" style="color:var(--neural); font-weight:600;">contact page</a>. Rather explore first? See <a href="product.html" style="color:var(--neural); font-weight:600;">the platform</a> or read about <a href="why.html" style="color:var(--neural); font-weight:600;">why rul.ai</a>.</p>
       </div>
     </div>
   </section>
@@ -114,7 +116,7 @@
         <a class="wordmark" href="index.html">
           <span class="logo-mark logo-mark--light"><img src="assets/img/logo-light.png" alt="rul.ai"></span><span class="logo-mark logo-mark--dark"><img src="assets/img/logo-dark.png" alt="rul.ai"></span>
         </a>
-        <p style="color:var(--text-soft); font-size:14px; max-width:32ch; margin-top:14px;">Neural-symbolic AI agents for enterprises that need fluency and control.</p>
+        <p style="color:var(--text-soft); font-size:16px; max-width:32ch; margin-top:14px;">Neural-symbolic AI agents for enterprises that need fluency and control.</p>
       </div>
       <div>
         <h5>Product</h5>
@@ -157,6 +159,21 @@
   </div>
 </footer>
 <script src="assets/site.js"></script>
+<script>
+(function(){
+  var b=document.getElementById('chatJessie'), hint=document.getElementById('chatJessieHint');
+  if(!b) return;
+  b.addEventListener('click', function(e){
+    e.preventDefault();
+    var r=window._rulai, opened=false;
+    try{
+      if(r && typeof r.open==='function'){ r.open(); opened=true; }
+      else if(window.rulai && typeof window.rulai.open==='function'){ window.rulai.open(); opened=true; }
+    }catch(err){}
+    if(!opened && hint) hint.style.display='block';
+  });
+})();
+</script>
 <script>window._rulai={"domain":"rul.ai","pod":"default","bot":"09c1cfb1b3794e3ca674435ae8786ab3"}</script>
 <script async src="https://console.rul.ai/wd.js"></script>
 </body>

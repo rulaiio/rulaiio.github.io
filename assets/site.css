@@ -107,7 +107,7 @@ h1,h2,h3{
 
 .eyebrow{
   font-family:"Geist", sans-serif;
-  font-size:12.5px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
+  font-size:14px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
   display:inline-flex; align-items:center; gap:9px;
   color:var(--text-soft);
 }
@@ -122,7 +122,7 @@ h1,h2,h3{
 
 .btn{
   font-family:"Geist", sans-serif;
-  font-weight:700; font-size:15px;
+  font-weight:700; font-size:16px;
   border-radius:var(--radius-pill);
   padding:14px 26px;
   border:1.5px solid transparent;
@@ -171,7 +171,7 @@ header{
   border-bottom:1px solid var(--line);
 }
 .nav{display:flex; align-items:center; justify-content:space-between; padding:16px 32px; max-width:1180px; margin:0 auto;}
-.navlinks{display:flex; gap:26px; font-size:14.5px; font-weight:600;}
+.navlinks{display:flex; gap:26px; font-size:16px; font-weight:600;}
 .navlinks a{text-decoration:none; color:var(--text-soft); padding-bottom:3px; border-bottom:2px solid transparent;}
 .navlinks a:hover{color:var(--text);}
 .navlinks a.active{color:var(--text); border-bottom-color:var(--symbolic);}
@@ -194,7 +194,7 @@ header{
 .hero h1 em{font-style:normal; color:var(--hero-magenta);}
 .hero .lede{color:var(--hero-text-soft);}
 .hero .ctas{display:flex; gap:14px; flex-wrap:wrap; margin-top:30px;}
-.proofline{margin-top:24px; font-size:13.5px; color:var(--hero-text-soft); font-family:"Geist", sans-serif; font-weight:700; letter-spacing:0.02em;}
+.proofline{margin-top:24px; font-size:15px; color:var(--hero-text-soft); font-family:"Geist", sans-serif; font-weight:700; letter-spacing:0.02em;}
 
 .hero-panel{
   background:var(--hero-panel-bg);
@@ -206,22 +206,22 @@ header{
 .hero-panel-label{
   display:flex; justify-content:space-between; align-items:center;
   font-family:"Geist", sans-serif; font-weight:700;
-  font-size:11.5px; letter-spacing:0.08em; text-transform:uppercase;
+  font-size:14px; letter-spacing:0.08em; text-transform:uppercase;
   color:var(--hero-text-soft);
   padding:2px 6px 14px;
 }
 .hero-panel-label .lamp{width:7px;height:7px;border-radius:50%;background:var(--hero-cyan);}
 .think-demo{display:flex; flex-direction:column; gap:12px; padding:6px 2px 2px;}
-.think-msg{max-width:88%; padding:12px 16px; border-radius:16px; font-size:14px; line-height:1.5; opacity:0; animation:think-in 0.5s ease forwards;}
+.think-msg{max-width:88%; padding:12px 16px; border-radius:16px; font-size:15px; line-height:1.5; opacity:0; animation:think-in 0.5s ease forwards;}
 .think-msg--user{align-self:flex-end; background:rgba(255,255,255,0.16); color:var(--hero-text); border-bottom-right-radius:4px; animation-delay:0.1s;}
 .think-msg--agent{align-self:flex-start; background:rgba(255,255,255,0.96); color:#16213A; border-bottom-left-radius:4px; box-shadow:0 10px 24px rgba(0,0,0,0.2); animation-delay:0.45s;}
 .hero-video{padding:14px 14px 12px;}
 .hero-video video{display:block; width:100%; aspect-ratio:16/9; border-radius:12px; background:#0B1220; box-shadow:0 18px 40px rgba(0,0,0,0.3);}
-.hero-video-caption{margin:12px 4px 0; font-size:13px; line-height:1.5; color:var(--hero-text-soft);}
+.hero-video-caption{margin:12px 4px 0; font-size:15px; line-height:1.5; color:var(--hero-text-soft);}
 .hero-video-caption a{color:var(--hero-cyan); font-weight:700; text-decoration:none;}
 .hero-video-caption a:hover{text-decoration:underline;}
 .think-checks{display:flex; flex-direction:column; gap:9px; margin-top:2px; padding:16px 18px; background:rgba(255,255,255,0.08); border:1px solid var(--hero-panel-line); border-radius:14px;}
-.think-check{display:flex; align-items:center; gap:10px; font-family:"Geist", sans-serif; font-size:13px; font-weight:600; color:var(--hero-text-soft); opacity:0; animation:think-in 0.5s ease forwards;}
+.think-check{display:flex; align-items:center; gap:10px; font-family:"Geist", sans-serif; font-size:14px; font-weight:600; color:var(--hero-text-soft); opacity:0; animation:think-in 0.5s ease forwards;}
 .think-check:nth-child(1){animation-delay:0.85s;}
 .think-check:nth-child(2){animation-delay:1.05s;}
 .think-check:nth-child(3){animation-delay:1.25s;}
@@ -235,7 +235,7 @@ header{
 .trusted{padding:34px 0 56px; border-bottom:1px solid var(--line);}
 .trusted-label{
   font-family:"Geist", sans-serif; font-weight:700;
-  font-size:11.5px; letter-spacing:0.1em; text-transform:uppercase;
+  font-size:14px; letter-spacing:0.1em; text-transform:uppercase;
   color:var(--text-soft); margin-bottom:20px;
 }
 .marquee{
@@ -285,7 +285,7 @@ section{padding:88px 0;}
 .subnav{display:flex; gap:10px; flex-wrap:wrap; margin:28px 0 0;}
 .subnav a{
   font-family:"Geist", sans-serif; font-weight:600;
-  font-size:13.5px; letter-spacing:0.01em;
+  font-size:15px; letter-spacing:0.01em;
   padding:9px 16px;
   border:1px solid var(--line);
   border-radius:var(--radius-pill);
@@ -310,8 +310,8 @@ section{padding:88px 0;}
 }
 .teaser-card:hover{background:var(--neural-tint); border-color:var(--neural); transform:translateY(-4px); box-shadow:0 20px 40px -18px rgba(22,33,58,0.28);}
 .teaser-card .shape{width:11px;height:11px;}
-.teaser-card p{color:var(--text-soft); font-size:14.5px; margin:0; flex:1;}
-.teaser-card .go{font-family:"Geist", sans-serif; font-weight:700; font-size:13px; color:var(--neural); margin-top:auto; display:inline-block; transition:transform 0.15s ease;}
+.teaser-card p{color:var(--text-soft); font-size:16px; margin:0; flex:1;}
+.teaser-card .go{font-family:"Geist", sans-serif; font-weight:700; font-size:15px; color:var(--neural); margin-top:auto; display:inline-block; transition:transform 0.15s ease;}
 .teaser-card:hover .go{transform:translateX(4px);}
 
 /* ---------- how it works ---------- */
@@ -323,9 +323,9 @@ section{padding:88px 0;}
 .how-step--flip .how-step-text{order:2;}
 .how-step--flip .how-step-shot{order:1;}
 @media(max-width:880px){ .how-step{grid-template-columns:1fr; gap:20px;} .how-step--flip .how-step-text{order:1;} .how-step--flip .how-step-shot{order:2;} }
-.how-step-num{font-family:"Geist", sans-serif; font-weight:700; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; color:var(--symbolic); display:block; margin-bottom:10px;}
+.how-step-num{font-family:"Geist", sans-serif; font-weight:700; font-size:14px; letter-spacing:0.1em; text-transform:uppercase; color:var(--symbolic); display:block; margin-bottom:10px;}
 .how-step h3{font-size:24px; font-weight:600; letter-spacing:-0.01em; margin:0 0 12px;}
-.how-step p{margin:0; color:var(--text-soft); font-size:15.5px; line-height:1.6;}
+.how-step p{margin:0; color:var(--text-soft); font-size:17px; line-height:1.6;}
 .how-step-shot{margin:0; border:1px solid var(--line); border-radius:12px; overflow:hidden; background:#F3F5FA;}
 .how-step-shot img{display:block; width:100%; height:auto;}
 
@@ -343,7 +343,7 @@ section{padding:88px 0;}
 .dual .neural-side h3 .shape{border-radius:50%; background:var(--neural);}
 .dual .symbolic-side h3 .shape{border-radius:2px; background:var(--symbolic);}
 .dual ul{margin:16px 0 0; padding:0; list-style:none;}
-.dual li{padding:12px 0 12px 20px; position:relative; color:var(--text-soft); font-size:15px; border-top:1px solid var(--line);}
+.dual li{padding:12px 0 12px 20px; position:relative; color:var(--text-soft); font-size:16px; border-top:1px solid var(--line);}
 .dual li:first-of-type{border-top:none;}
 .dual li::before{content:"–"; position:absolute; left:0; color:var(--text-soft);}
 .resolution{margin-top:28px; font-family:"Geist", sans-serif; font-size:22px; font-weight:600; text-align:center; color:var(--text);}
@@ -352,9 +352,9 @@ section{padding:88px 0;}
 /* ---------- comparison table ---------- */
 .table-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:var(--radius-soft); margin-top:8px;}
 table.compare{width:100%; border-collapse:collapse; min-width:640px;}
-table.compare th, table.compare td{text-align:left; padding:16px 20px; border-bottom:1px solid var(--line); font-size:14.5px; vertical-align:top;}
+table.compare th, table.compare td{text-align:left; padding:16px 20px; border-bottom:1px solid var(--line); font-size:16px; vertical-align:top;}
 table.compare thead th{
-  font-family:"Geist", sans-serif; font-size:11.5px; letter-spacing:0.06em; text-transform:uppercase;
+  font-family:"Geist", sans-serif; font-size:14px; letter-spacing:0.06em; text-transform:uppercase;
   color:var(--text-soft); font-weight:600; background:var(--surface);
 }
 table.compare tbody th{font-weight:700; color:var(--text); background:var(--surface); white-space:nowrap;}
@@ -372,17 +372,17 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
   border:1px solid var(--line); border-radius:var(--radius-soft);
   box-shadow:var(--shadow);
 }
-.stage .num{font-family:"Geist", sans-serif; font-weight:700; font-size:12px; letter-spacing:0.08em; color:var(--text-soft); display:block; margin-bottom:16px;}
+.stage .num{font-family:"Geist", sans-serif; font-weight:700; font-size:14px; letter-spacing:0.08em; color:var(--text-soft); display:block; margin-bottom:16px;}
 .stage .icon{width:34px;height:34px; margin-bottom:18px; display:block;}
 .stage h4{font-family:"Geist", sans-serif; font-weight:700; font-size:19px; margin:0 0 10px;}
-.stage p{font-size:14.5px; color:var(--text-soft); margin:0;}
+.stage p{font-size:16px; color:var(--text-soft); margin:0;}
 .stage.neural-stage .num{color:var(--neural);}
 .stage.symbolic-stage .num{color:var(--symbolic);}
 
 .audit-note{
   margin-top:30px; display:flex; align-items:center; gap:14px;
   padding:18px 22px; border:1px dashed var(--line); border-radius:12px;
-  font-family:"Geist", sans-serif; font-size:14px; color:var(--text-soft);
+  font-family:"Geist", sans-serif; font-size:16px; color:var(--text-soft);
   background:var(--surface);
 }
 .audit-note .sq{width:9px;height:9px;border-radius:2px;background:var(--symbolic); flex:none;}
@@ -393,7 +393,7 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
 .channel-note{color:var(--text-soft); font-size:16px; max-width:62ch; margin:0 0 20px;}
 .chip-grid{display:flex; flex-wrap:wrap; gap:12px;}
 .chip{
-  font-family:"Geist", sans-serif; font-size:13.5px; font-weight:600;
+  font-family:"Geist", sans-serif; font-size:15px; font-weight:600;
   padding:10px 16px; border:1px solid var(--line); border-radius:var(--radius-pill);
   background:var(--surface); display:flex; align-items:center; gap:9px;
 }
@@ -405,8 +405,8 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
 @media(max-width:880px){ .integration-grid{grid-template-columns:repeat(2,1fr);} }
 @media(max-width:560px){ .integration-grid{grid-template-columns:1fr;} }
 .integration-card{border:1px solid var(--line); border-radius:14px; padding:20px; background:var(--surface); box-shadow:var(--shadow);}
-.integration-card h4{font-size:15.5px; margin:0 0 8px; font-weight:700;}
-.integration-card p{font-size:13.5px; color:var(--text-soft); margin:0;}
+.integration-card h4{font-size:17px; margin:0 0 8px; font-weight:700;}
+.integration-card p{font-size:15px; color:var(--text-soft); margin:0;}
 
 /* ---------- pillars ---------- */
 .pillars{
@@ -420,12 +420,12 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
 }
 .pillar .icon{width:30px;height:30px;margin-bottom:16px;}
 .pillar h4{font-family:"Geist", sans-serif; font-weight:700; font-size:19px; margin:0 0 10px;}
-.pillar p{color:var(--text-soft); font-size:14.5px; margin:0;}
+.pillar p{color:var(--text-soft); font-size:16px; margin:0;}
 .pillar-photo{width:72px; height:72px; border-radius:50%; object-fit:cover; margin-bottom:16px; display:block; border:1px solid var(--line);}
 
 /* ---------- simple divided list (e.g. partner tracks) ---------- */
 .partner-list{list-style:none; margin:0; padding:0; max-width:760px;}
-.partner-list li{padding:20px 0; border-top:1px solid var(--line); font-size:15.5px; color:var(--text-soft);}
+.partner-list li{padding:20px 0; border-top:1px solid var(--line); font-size:17px; color:var(--text-soft);}
 .partner-list li:first-child{border-top:none;}
 .partner-list strong{color:var(--text); font-family:"Geist", sans-serif; font-weight:700;}
 
@@ -435,12 +435,12 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
 @media(max-width:640px){ .industry-row{grid-template-columns:1fr;} }
 .industry{border:1px solid var(--line); border-radius:16px; padding:26px 24px; background:var(--surface); box-shadow:var(--shadow);}
 .industry .tag{
-  font-family:"Geist", sans-serif; font-weight:700; font-size:11.5px; letter-spacing:0.06em; text-transform:uppercase;
+  font-family:"Geist", sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; text-transform:uppercase;
   color:var(--symbolic-strong); display:block; margin-bottom:12px;
 }
 .industry h4{font-size:18px; margin:0 0 14px; font-weight:700;}
 .industry ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:9px;}
-.industry li{font-size:14px; color:var(--text-soft); padding-left:16px; position:relative;}
+.industry li{font-size:16px; color:var(--text-soft); padding-left:16px; position:relative;}
 .industry li::before{content:""; position:absolute; left:0; top:8px; width:5px;height:5px;border-radius:50%; background:var(--neural);}
 
 /* ---------- resources ---------- */
@@ -455,10 +455,10 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
   transition:transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 .resource-card:hover{border-color:var(--neural); transform:translateY(-4px); box-shadow:0 20px 40px -18px rgba(22,33,58,0.28);}
-.resource-card .tag{font-family:"Geist", sans-serif; font-weight:700; font-size:11.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--neural);}
+.resource-card .tag{font-family:"Geist", sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; text-transform:uppercase; color:var(--neural);}
 .resource-card h4{margin:0; font-size:16.5px;}
-.resource-card p{margin:0; font-size:14px; color:var(--text-soft);}
-.resource-card .go{font-family:"Geist", sans-serif; font-weight:700; font-size:13px; color:var(--text-soft); margin-top:auto; display:inline-block; transition:transform 0.15s ease;}
+.resource-card p{margin:0; font-size:16px; color:var(--text-soft);}
+.resource-card .go{font-family:"Geist", sans-serif; font-weight:700; font-size:15px; color:var(--text-soft); margin-top:auto; display:inline-block; transition:transform 0.15s ease;}
 .resource-card:hover .go{transform:translateX(4px);}
 
 /* ---------- timeline (about) ---------- */
@@ -470,16 +470,16 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
   width:10px;height:10px;border-radius:50%; background:var(--neural); border:3px solid var(--bg);
 }
 .timeline-year{
-  font-family:"Geist", sans-serif; font-size:13.5px; font-weight:700;
+  font-family:"Geist", sans-serif; font-size:15px; font-weight:700;
   color:var(--symbolic-strong); display:block; margin-bottom:8px; letter-spacing:0.04em;
 }
 .timeline-item h4{font-size:17px; margin:0 0 8px;}
-.timeline-item p{color:var(--text-soft); font-size:14.5px; margin:0;}
+.timeline-item p{color:var(--text-soft); font-size:16px; margin:0;}
 
 .hq-strip{
   display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap;
   padding:26px 28px; border:1px solid var(--line); border-radius:16px; background:var(--surface);
-  font-size:14px; color:var(--text-soft); margin-top:16px;
+  font-size:16px; color:var(--text-soft); margin-top:16px;
 }
 .hq-strip strong{color:var(--text);}
 
@@ -488,27 +488,27 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
 @media(max-width:880px){ .contact-grid{grid-template-columns:1fr;} }
 .contact-points{display:flex; flex-direction:column; gap:28px;}
 .contact-point h4{font-size:18px; margin:0 0 8px;}
-.contact-point p{color:var(--text-soft); font-size:14.5px; margin:0;}
+.contact-point p{color:var(--text-soft); font-size:16px; margin:0;}
 .contact-card{
   background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-soft);
   padding:36px 32px; box-shadow:var(--shadow);
 }
 .contact-card h3{font-family:"Geist", sans-serif; font-weight:700; font-size:22px; margin:0 0 10px;}
-.contact-card > p{color:var(--text-soft); font-size:14.5px; margin:0;}
+.contact-card > p{color:var(--text-soft); font-size:16px; margin:0;}
 .contact-form{display:flex; flex-direction:column; gap:14px; margin-top:22px;}
-.contact-form label{display:flex; flex-direction:column; gap:6px; font-family:"Geist", sans-serif; font-weight:600; font-size:13px; color:var(--text);}
+.contact-form label{display:flex; flex-direction:column; gap:6px; font-family:"Geist", sans-serif; font-weight:600; font-size:15px; color:var(--text);}
 .contact-form input, .contact-form textarea{
-  font:inherit; font-family:"Geist", sans-serif; font-weight:500; font-size:14.5px;
+  font:inherit; font-family:"Geist", sans-serif; font-weight:500; font-size:16px;
   color:var(--text); background:var(--bg);
   border:1px solid var(--line); border-radius:10px;
   padding:11px 13px; resize:vertical;
 }
 .contact-form input:focus, .contact-form textarea:focus{outline:2px solid var(--neural); outline-offset:1px;}
-.contact-form-note{margin-top:14px; font-size:13px; color:var(--text-soft);}
+.contact-form-note{margin-top:14px; font-size:15px; color:var(--text-soft);}
 .contact-form-note.is-success{color:var(--neural); font-weight:600;}
-.contact-divider{display:flex; align-items:center; gap:12px; margin:24px 0; font-family:"Geist", sans-serif; font-weight:700; font-size:11.5px; letter-spacing:0.08em; color:var(--text-soft); text-transform:uppercase;}
+.contact-divider{display:flex; align-items:center; gap:12px; margin:24px 0; font-family:"Geist", sans-serif; font-weight:700; font-size:14px; letter-spacing:0.08em; color:var(--text-soft); text-transform:uppercase;}
 .contact-divider::before, .contact-divider::after{content:""; flex:1; height:1px; background:var(--line);}
-.g2-link{display:inline-block; margin-top:10px; font-family:"Geist", sans-serif; font-weight:700; font-size:13px; color:var(--neural); text-decoration:none;}
+.g2-link{display:inline-block; margin-top:10px; font-family:"Geist", sans-serif; font-weight:700; font-size:15px; color:var(--neural); text-decoration:none;}
 .g2-link:hover{text-decoration:underline;}
 
 /* ---------- G2 reviews ---------- */
@@ -521,7 +521,7 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
 .g2-badge:hover{border-color:var(--neural); transform:translateY(-2px);}
 .g2-badge-score{font-family:"Geist", sans-serif; font-weight:800; font-size:18px;}
 .g2-badge-stars{color:#F5A623; letter-spacing:1px; font-size:13px;}
-.g2-badge-label{font-family:"Geist", sans-serif; font-weight:600; font-size:13.5px; color:var(--text-soft);}
+.g2-badge-label{font-family:"Geist", sans-serif; font-weight:600; font-size:15px; color:var(--text-soft);}
 .review-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:40px;}
 @media(max-width:880px){ .review-grid{grid-template-columns:1fr;} }
 .review-card{
@@ -532,8 +532,8 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
 .review-stars{position:relative; display:inline-block; font-size:15px; letter-spacing:2px; line-height:1;}
 .review-stars-bg{color:var(--line);}
 .review-stars-fg{position:absolute; top:0; left:0; overflow:hidden; white-space:nowrap; color:#F5A623;}
-.review-body{font-size:14.5px; color:var(--text); margin:0; flex:1; line-height:1.55;}
-.review-meta{font-size:13px; color:var(--text-soft); font-weight:600;}
+.review-body{font-size:16px; color:var(--text); margin:0; flex:1; line-height:1.55;}
+.review-meta{font-size:15px; color:var(--text-soft); font-weight:600;}
 .review-meta strong{color:var(--text);}
 
 /* ---------- recognition ---------- */
@@ -543,7 +543,7 @@ table.compare tr:last-child td, table.compare tr:last-child th{border-bottom:non
   font-family:"Geist", sans-serif; font-size:clamp(22px,3vw,30px); font-weight:600; line-height:1.4; text-wrap:balance;
 }
 .recog blockquote em{font-style:normal; color:var(--symbolic);}
-.recog-meta{margin-top:22px; font-family:"Geist", sans-serif; font-weight:700; font-size:13px; color:var(--text-soft); letter-spacing:0.02em;}
+.recog-meta{margin-top:22px; font-family:"Geist", sans-serif; font-weight:700; font-size:15px; color:var(--text-soft); letter-spacing:0.02em;}
 
 /* ---------- final cta ---------- */
 .finalcta{
@@ -560,15 +560,15 @@ footer{border-top:1px solid var(--line); padding:56px 0 40px;}
 @media(max-width:980px){ .footgrid{grid-template-columns:1fr 1fr 1fr;} }
 @media(max-width:560px){ .footgrid{grid-template-columns:1fr;} }
 .footgrid h5{
-  font-family:"Geist", sans-serif; font-weight:700; font-size:11.5px; letter-spacing:0.06em; text-transform:uppercase;
+  font-family:"Geist", sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; text-transform:uppercase;
   color:var(--text-soft); margin:0 0 14px;
 }
 .footgrid ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px;}
-.footgrid a{text-decoration:none; color:var(--text-soft); font-size:14px; background:none; border:none; padding:0; text-align:left; cursor:pointer; font-family:inherit;}
+.footgrid a{text-decoration:none; color:var(--text-soft); font-size:16px; background:none; border:none; padding:0; text-align:left; cursor:pointer; font-family:inherit;}
 .footgrid a:hover{color:var(--text);}
 .footnote{
   margin-top:48px; padding-top:24px; border-top:1px solid var(--line);
-  display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:13px; color:var(--text-soft);
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:15px; color:var(--text-soft);
 }
 
 /* ---------- results stat band ---------- */
@@ -581,9 +581,9 @@ footer{border-top:1px solid var(--line); padding:56px 0 40px;}
 .stat:first-child{padding-left:0; border-left:none;}
 .stat-num{font-family:"Geist", sans-serif; font-weight:700; font-size:clamp(40px,5.2vw,64px); line-height:1; letter-spacing:-0.02em;}
 .stat-label{font-size:16px; color:var(--hero-text-soft); max-width:22ch;}
-.stat-who{margin-top:6px; min-height:34px; display:flex; align-items:center; font-family:"Geist", sans-serif; font-weight:600; font-size:13px; letter-spacing:0.06em; text-transform:uppercase; color:var(--hero-text);}
+.stat-who{margin-top:6px; min-height:34px; display:flex; align-items:center; font-family:"Geist", sans-serif; font-weight:600; font-size:14px; letter-spacing:0.06em; text-transform:uppercase; color:var(--hero-text);}
 .stat-who img{height:22px; width:auto; max-width:120px; background:#fff; padding:6px 12px; box-sizing:content-box; border-radius:10px; display:block;}
-.stat-note{margin:28px 0 0; font-size:13px; color:var(--hero-text-soft);}
+.stat-note{margin:28px 0 0; font-size:15px; color:var(--hero-text-soft);}
 .stat-note a{color:var(--hero-text); text-decoration:underline;}
 @media(max-width:760px){
   .stat-band{padding:32px 24px 24px;}
